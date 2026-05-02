@@ -1,22 +1,22 @@
 # Sistema de Controle de Acesso
 
-## 📌 Sobre o Projeto
+## SOBRE O PROJETO
 Este projeto é um sistema de controle de acesso com diferentes níveis de permissão (admin, gerente, usuário). Foi desenvolvido como parte dos meus estudos em Ciência da Computação para praticar conceitos de modelagem de dados, segurança e auditoria.
 
-## 🚀 Funcionalidades
-- ✅ Login com autenticação (senhas com hash - não armazenadas em texto puro)
-- ✅ 3 níveis de acesso: Admin, Gerente e Usuário comum
-- ✅ Usuários comuns só veem seus próprios dados
-- ✅ Gerentes veem dados de nível admin e gerente
-- ✅ Administradores têm acesso total
-- ✅ Log de auditoria registra todas as ações
+## FUNCIONALIDADES
+- Login com autenticação (senhas com hash - não armazenadas em texto puro)
+- 3 níveis de acesso: Admin, Gerente e Usuário comum
+-  Usuários comuns só veem seus próprios dados
+-  Gerentes veem dados de nível admin e gerente
+-  Administradores têm acesso total
+-  Log de auditoria registra todas as ações
 
-## 🛠️ Tecnologias utilizadas
+## TECNOLOGIAS UTILIZADAS
 - Python 3
 - SQLite (banco de dados relacional)
 - Hashlib (para segurança de senhas)
 
-## 📂 Estrutura do projeto
+## ESTRUTURA DO PROJETO
 - sistema-controle-acesso/
 - cria_banco.py # Cria as tabelas do banco de dados
 - cria_usuarios.py # Cadastra usuários iniciais
@@ -28,7 +28,7 @@ Este projeto é um sistema de controle de acesso com diferentes níveis de permi
 - README.md # Este arquivo
 
 
-## ▶️ Como executar
+## COMO EXECUTAR
 1. Clone o repositório: `git clone https://github.com/seu-usuario/sistema-controle-acesso.git`
 2. Entre na pasta: `cd sistema-controle-acesso`
 3. Execute: `python cria_banco.py`
@@ -38,8 +38,8 @@ Este projeto é um sistema de controle de acesso com diferentes níveis de permi
    - carlos@empresa.com / gerente123 (acesso intermediário)
    - julia@empresa.com / usuario123 (acesso básico)
 
-## 👩‍💻 Autora
+##  AUTORA
 Stephanny Araújo - Estudante de Ciência da Computação
 
-## 📅 Status do projeto
-✅ Concluído - Disponível para portfólio e melhorias futuras
+## STATUS DO PROJETP
+Concluído - Disponível para portfólio e melhorias futuras
