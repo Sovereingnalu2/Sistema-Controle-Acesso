@@ -17,15 +17,15 @@ Este projeto é um sistema de controle de acesso com diferentes níveis de permi
 - Hashlib (para segurança de senhas)
 
 ## 📂 Estrutura do projeto
-sistema-controle-acesso/
-cria_banco.py # Cria as tabelas do banco de dados
-cria_usuarios.py # Cadastra usuários iniciais
-login.py # Sistema de autenticação
-adiciona_dados.py # Adiciona dados protegidos
-consulta.py # Consulta dados com controle de acesso
- ver_logs.py # Visualiza logs de auditoria
-.gitignore # Arquivos ignorados pelo Git
-README.md # Este arquivo
+- sistema-controle-acesso/
+- cria_banco.py # Cria as tabelas do banco de dados
+- cria_usuarios.py # Cadastra usuários iniciais
+- login.py # Sistema de autenticação
+- adiciona_dados.py # Adiciona dados protegidos
+- consulta.py # Consulta dados com controle de acesso
+- ver_logs.py # Visualiza logs de auditoria
+- .gitignore # Arquivos ignorados pelo Git
+- README.md # Este arquivo
 
 
 ## ▶️ Como executar
